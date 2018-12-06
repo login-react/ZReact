@@ -7,7 +7,7 @@ class Child extends React.Component {
         return (
             <div>
                 <input type="text" onChange={this.props.handleChange} placeholder="child" />
-                <span style={{color: 'blue'}}>{this.props.msg}</span>
+                <span style={{color: 'blue'}}>{this.props.msg}</span>z
             </div>
         );
     }
