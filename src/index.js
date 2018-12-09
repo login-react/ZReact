@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './Apppp';
+import './mock/index';
+// import App from './
+import 'antd/dist/antd.css'
 import View from './view/Parent';
 import * as serviceWorker from './serviceWorker';
 
